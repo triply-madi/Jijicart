@@ -6,11 +6,25 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage - Jijicart</title>
+    {% load static %}
+
+    <style>
+
+       h1{
+        text-align : center;
+        text-decoration-color: aquamarine;
+        text-decoration: underline;
+        font-weight: bold;
+        }
+
+    </style>
+
 </head>
 <body>
 
 <h1>Welcome to Jijicart</h1>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolorum itaque maiores numquam possimus. Accusantium aut commodi corporis cupiditate, doloribus ea fuga inventore ipsum labore laudantium perferendis quis ratione repudiandae.</span><span>A ad deleniti doloribus eius, excepturi inventore ipsum molestias mollitia nisi quam quibusdam quisquam ratione recusandae velit voluptates? Dolor dolores doloribus error odit porro provident quis saepe sit suscipit voluptas?</span><span>Aliquam assumenda atque blanditiis commodi consequuntur laboriosam nam neque nobis numquam optio, perspiciatis quaerat, qui repellat! Facere, non, voluptatum. Aperiam dolorem eos error incidunt modi quae, repudiandae rerum sed temporibus.</span></p>
+<img src="{% static 'assets/8.jpeg'%}" alt="">
 <button> Shop Now!</button>
 
 </body>
